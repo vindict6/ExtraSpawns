@@ -34,9 +34,8 @@ Stop when filled: The process repeats until the team has 32 spawns total.
 
 Visually, each original spawn gets up to four new neighbors in a cross pattern:
 
-   [ ]  
-[ ] O [ ]   ← O = original spawn, [ ] = new spawns
-   [ ]
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/16797e8f-52ee-4898-8e69-90bc0097320b" />
+
 
 📦 Installation
 
