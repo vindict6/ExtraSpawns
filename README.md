@@ -22,20 +22,15 @@ Check requirements: Each side should have 32 spawns. If there are enough already
 
 Clone with offsets: New spawn points are created by cloning the originals and shifting them slightly:
 
-+64 units X
-
--64 units X
-
-+64 units Y
-
--64 units Y
++/-1 to +/-2 units X and Y
 
 Stop when filled: The process repeats until the team has 32 spawns total.
 
-Visually, each original spawn gets up to four new neighbors in a cross pattern:
+Visually, each original spawn gets up to four new neighbors in a tight cross pattern:
 
 <img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/6c15cf4c-6e76-4862-8e26-0b0b3d5b1f86" />
 
+The new player spawns will appear right on top of the existing ones when beginning a round.
 
 
 📦 Installation
