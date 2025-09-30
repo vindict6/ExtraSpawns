@@ -2,6 +2,7 @@ ExtraSpawns (CounterStrikeSharp Plugin)
 
 Automatically generates additional spawn points for both Terrorists and Counter-Terrorists, ensuring large servers (up to 64 players) never run out of spawn locations.
 
+***NOTE: This is for servers using mp_solid_teammates 2 by default. I will be releasing a version that reads the intended value from a config (For people using 0 or 1) at a later date.***
 
 ✨ Features
 
