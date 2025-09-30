@@ -62,4 +62,4 @@ Once spawns are successfully generated, the timer stops forever (until next map)
 👤 Author
 
 Vindict6 (BONE)
-Version: 1.1.0
+Version: 1.2.0
