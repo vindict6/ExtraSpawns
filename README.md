@@ -8,9 +8,9 @@ Automatically generates additional spawn points for both Terrorists and Counter-
 
 ✅ Places new spawns offset around existing ones, keeping natural flow and orientation.
 
-✅ Runs automatically — checks every 5 seconds after map load until spawns are created, then never runs again.
+✅ Runs automatically — Once every round start.
 
-✅ Manual command (css_spawns) to force regeneration.
+✅ Optional command (css_spawns) to manually force spawn generation.
 
 ✅ Works on any map, no editing required.
 
@@ -31,6 +31,8 @@ Visually, each original spawn gets up to four new neighbors in a tight cross pat
 <img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/6c15cf4c-6e76-4862-8e26-0b0b3d5b1f86" />
 
 The new player spawns will appear right on top of the existing ones when beginning a round.
+
+***The mp_solid_teammates cvar is set to 0 for ten seconds, and then back to 2 at the beginning of every round.***
 
 
 📦 Installation
