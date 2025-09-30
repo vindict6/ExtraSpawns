@@ -35,7 +35,7 @@ Visually, each original spawn gets up to four new neighbors in a tight cross pat
 
 The new player spawns will appear right on top of the existing ones when beginning a round.
 
-***The mp_solid_teammates cvar is set to 0 for ten seconds, and then back to 2 at the beginning of every round.***
+***The mp_solid_teammates cvar is set to 0 for five seconds, and then back to 2 at the beginning of every round.***
 
 
 📦 Installation
@@ -57,13 +57,13 @@ css_spawns	Manually generate extra spawns for both teams.
 [ExtraSpawns] Spawns created, stopping checks.
 
 
-📌 Notes
+📌 Notes, TL;DR
 
 The plugin does not overwrite existing spawns — it only adds more.
 
 If the map already has 32 spawns per team, no new spawns are added.
 
-Once spawns are successfully generated, the timer stops forever (until next map).
+Once spawns are successfully generated, generation stops forever (until next map).
 
 
 👤 Author
