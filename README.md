@@ -2,6 +2,7 @@ ExtraSpawns (CounterStrikeSharp Plugin)
 
 Automatically generates additional spawn points for both Terrorists and Counter-Terrorists, ensuring large servers (up to 64 players) never run out of spawn locations.
 
+
 ✨ Features
 
 ✅ Ensures up to 32 spawns per team (info_player_terrorist and info_player_counterterrorist entities).
@@ -13,6 +14,7 @@ Automatically generates additional spawn points for both Terrorists and Counter-
 ✅ Optional command (css_spawns) to manually force spawn generation.
 
 ✅ Works on any map, no editing required.
+
 
 ⚙️ How It Works
 
@@ -37,12 +39,12 @@ The new player spawns will appear right on top of the existing ones when beginni
 
 📦 Installation
 
-Install CounterStrikeSharp
-.
+Install MetaMod and CounterStrikeSharp
 
-Place the compiled plugin .dll in your server’s addons/counterstrikesharp/plugins/ folder.
+Place the compiled plugin .dll in your server’s addons/counterstrikesharp/plugins/ExtraSpawn folder.
 
 Restart the server.
+
 
 🔧 Commands
 Command	Description
@@ -53,6 +55,7 @@ css_spawns	Manually generate extra spawns for both teams.
 [ExtraSpawns] Added 8 spawns for info_player_counterterrorist.
 [ExtraSpawns] Spawns created, stopping checks.
 
+
 📌 Notes
 
 The plugin does not overwrite existing spawns — it only adds more.
@@ -60,6 +63,7 @@ The plugin does not overwrite existing spawns — it only adds more.
 If the map already has 32 spawns per team, no new spawns are added.
 
 Once spawns are successfully generated, the timer stops forever (until next map).
+
 
 👤 Author
 
