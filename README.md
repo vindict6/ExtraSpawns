@@ -19,6 +19,8 @@ Automatically generates additional spawn points for both Terrorists and Counter-
 
 ⚙️ How It Works
 
+**Checks for completion every five seconds after round start.**
+
 Detect existing spawns: Finds all info_player_terrorist and info_player_counterterrorist entities.
 
 Check requirements: Each side should have 32 spawns. If there are enough already, nothing happens.
@@ -35,7 +37,7 @@ Visually, each original spawn gets up to four new neighbors in a tight cross pat
 
 The new player spawns will appear right on top of the existing ones when beginning a round.
 
-***The mp_solid_teammates cvar is set to 0 for five seconds, and then back to 2 at the beginning of every round.***
+***The mp_solid_teammates cvar is set to 0 for ten seconds, and then back to 2 at the beginning of every round.***
 
 
 📦 Installation
@@ -63,7 +65,7 @@ The plugin does not overwrite existing spawns — it only adds more.
 
 If the map already has 32 spawns per team, no new spawns are added.
 
-Once spawns are successfully generated, generation stops forever (until next map).
+Once spawns are successfully generated, generation timers stop forever (until next map).
 
 
 👤 Author
