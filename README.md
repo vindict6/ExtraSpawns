@@ -44,9 +44,9 @@ The new player spawns will appear right on top of the existing ones when beginni
 
 Install MetaMod and CounterStrikeSharp
 
-Place the compiled plugin .dll in your server’s addons/counterstrikesharp/plugins/ExtraSpawn folder.
+Place the compiled plugin .dll in your server’s addons/counterstrikesharp/plugins/ExtraSpawns folder.
 
-Restart the server.
+Restart the server **or** run the command **css_plugins load ExtraSpawns**.
 
 
 🔧 Commands
